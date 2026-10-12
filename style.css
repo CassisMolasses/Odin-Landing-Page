@@ -74,26 +74,19 @@ h1 {
 }
 
 .container {
-    max-width: 75%;
+    max-width: 60%;
     max-height: auto;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 80px;
 }
 
 .content {
-    align-items: center;
-    max-width: fit-content;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     color: rgb(23, 40, 0);
 }
-.content img {
-    max-width: 50%;
-    max-height: auto;
-}
+
 
 button {
     background-color: rgb(114, 186, 21);
@@ -119,7 +112,7 @@ button {
 }
 
 .wisdom {
-    max-width: 875px;
+    max-width: 60%;
     align-content: center;
     
 }
@@ -127,7 +120,7 @@ button {
 .signed {
     display: flex;
     justify-content:flex-end;
-    min-width: 750px;
+    min-width: 60%;
 }
 
 .wisdom,
