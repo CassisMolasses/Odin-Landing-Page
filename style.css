@@ -7,7 +7,6 @@ body {
     max-width: 100dvw;
     max-height: 100vh;
 }
-    
 
 a {
     text-decoration: none;
@@ -18,6 +17,7 @@ a {
     color: rgb(114, 186, 21);
     font-size: 24px;
     margin: 0;
+    max-width: 35%;
 }
 
 .header,
@@ -29,14 +29,19 @@ a {
     padding-bottom: 75px;
 }
 
+
+
 .links {
     display: flex;
+    max-width: 35%;
     gap: 20px;  
 }
 
 .left {
-    max-width: 475px;
-    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    max-width: 35%;
     margin: 0;
 }
 
@@ -51,10 +56,7 @@ a {
     color: rgb(89, 145, 16)
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 
 
 
