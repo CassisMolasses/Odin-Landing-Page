@@ -13,11 +13,13 @@ a {
     color: rgb(114, 186, 21);
     font-size: 24px;
     margin: 0;
+    width: 30%;
 }
 
 .header,
 .hero { 
     display: flex;
+    
     flex-direction: row;
     justify-content: space-evenly;
     background-color: rgb(23, 40, 0);
@@ -25,13 +27,15 @@ a {
 }
 
 .links {
+    justify-content: flex-end;
+    display: flex;
+    width: 30%;
     display: flex;
     gap: 20px;  
 }
 
 .left {
-    max-width: 475px;
-    max-height: 300px;
+    width: 30%;
     margin: 0;
 }
 
@@ -44,6 +48,10 @@ a {
 .secondary {
     font-size: 18px;
     color: rgb(89, 145, 16)
+}
+.right {
+    width: 30%;
+
 }
 
 .right img {
