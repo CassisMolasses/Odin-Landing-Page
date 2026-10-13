@@ -1,12 +1,8 @@
-
-
-.html, 
 body {
     font-family: Roboto;
     margin: 0;
-    max-width: 100dvw;
-    max-height: 100vh;
 }
+    
 
 a {
     text-decoration: none;
@@ -17,31 +13,27 @@ a {
     color: rgb(114, 186, 21);
     font-size: 24px;
     margin: 0;
-    max-width: 35%;
 }
 
 .header,
 .hero { 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgb(23, 40, 0);
+    padding-left: 300px;
+    padding-right: 300px;
     padding-bottom: 75px;
 }
 
-
-
 .links {
     display: flex;
-    max-width: 35%;
     gap: 20px;  
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 0;
-    max-width: 35%;
+    max-width: 475px;
+    max-height: 300px;
     margin: 0;
 }
 
@@ -56,7 +48,10 @@ a {
     color: rgb(89, 145, 16)
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -76,19 +71,20 @@ h1 {
 }
 
 .container {
-    max-width: 60%;
-    max-height: auto;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 125px;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    max-height: auto;
     text-align: center;
     color: rgb(23, 40, 0);
 }
-
 
 button {
     background-color: rgb(114, 186, 21);
@@ -114,7 +110,7 @@ button {
 }
 
 .wisdom {
-    max-width: 60%;
+    max-width: 875px;
     align-content: center;
     
 }
@@ -122,7 +118,7 @@ button {
 .signed {
     display: flex;
     justify-content:flex-end;
-    min-width: 60%;
+    min-width: 750px;
 }
 
 .wisdom,
