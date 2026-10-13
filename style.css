@@ -48,7 +48,7 @@ a {
     color: rgb(89, 145, 16)
 }
 
-img {
+.right img {
     max-width: 100%;
     height: auto;
 }
@@ -73,6 +73,7 @@ h1 {
 .container {
     justify-content: center;
     display: flex;
+    max-width: 20%;
     flex-direction: row;
     gap: 125px;
 }
@@ -80,8 +81,7 @@ h1 {
 .content {
     display: flex;
     flex-direction: column;
-    max-width: 250px;
-    max-height: auto;
+    
     text-align: center;
     color: rgb(23, 40, 0);
 }
